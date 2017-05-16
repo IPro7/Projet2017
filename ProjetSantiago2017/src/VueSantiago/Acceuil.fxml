@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControlleurSantiago.AcceuilController" >
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" >
+         <image>
+            <Image url="@..\img\santiago.jpg"/>
+         </image>
+      </ImageView>
+      
+      <Button fx:id="play" layoutX="175.0" layoutY="300.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: black; -fx-background-radius: 4;" text="play" textFill="WHITE" />
+   </children>
+</AnchorPane>
